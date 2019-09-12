@@ -1,0 +1,36 @@
+PODS:
+  - FacebookCore (0.8.0):
+    - FBSDKCoreKit (~> 5.0)
+  - FacebookLogin (0.8.0):
+    - FacebookCore (~> 0.8.0)
+    - FBSDKCoreKit (~> 5.0)
+    - FBSDKLoginKit (~> 5.0)
+  - FBSDKCoreKit (5.4.1):
+    - FBSDKCoreKit/Basics (= 5.4.1)
+    - FBSDKCoreKit/Core (= 5.4.1)
+  - FBSDKCoreKit/Basics (5.4.1)
+  - FBSDKCoreKit/Core (5.4.1):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (5.4.1):
+    - FBSDKCoreKit (~> 5.0)
+
+DEPENDENCIES:
+  - FacebookLogin
+  - FBSDKLoginKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FacebookCore
+    - FacebookLogin
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+
+SPEC CHECKSUMS:
+  FacebookCore: 563bb4cbcd7dd86cf89f3729252140bf256aacaa
+  FacebookLogin: 8b966ae661e95e7dba837d7cc49cc464ce003dba
+  FBSDKCoreKit: 5144671077d67f07d7d243dbc7fd57a171f73954
+  FBSDKLoginKit: ff38b353b6843353f090028eb1b895c78aa82796
+
+PODFILE CHECKSUM: d56a22756d1d7e54d4fc3ca36df7e6ed9cacbee9
+
+COCOAPODS: 1.7.0.rc.1
